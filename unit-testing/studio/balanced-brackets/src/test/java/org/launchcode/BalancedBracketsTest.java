@@ -76,8 +76,8 @@ public void oneWordInBracket() {
 
 
     @Test
-    public void multipleBalancedBracketsReturnsTrue() {
-        assertTrue(BalancedBrackets.hasBalancedBrackets("[]Launch[]Code[]"));
+    public void comboBalancedBracketsReturnsTrue() {
+        assertTrue(BalancedBrackets.hasBalancedBrackets("[][][]Launch[]Code[]"));
     }
 
 
